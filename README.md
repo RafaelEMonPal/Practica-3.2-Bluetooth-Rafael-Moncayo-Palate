@@ -27,3 +27,9 @@ delay(20);
 }
 
 ```
+
+## Explicació del codi
+
+Amb la llibreria "**BluetoothSerial**" creem un objecte bluetoothSerial que en sajudara a establir una conexió bluetooth amb cualsevol altre dispositiu capacitat per utilitzar bluetooth. El Setup com a tal és molt simple, iniciem la comunicació bluetooth i iniciem el serial amb la velocitat de monitor 115200. Seguidament en el Loop simplement utilitzem una comunicació Serial-SerialBluetooth per poder escriure en el dispositiu bluetooth i que aparegui per pantalla. 
+La aplicació que utilitzarem per la comunicació entre el dispositiu i la ESP és la : "**Serial Bluetooth Terminal**" que la podrem trobar en la PlayStore.
+
